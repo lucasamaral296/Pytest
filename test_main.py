@@ -4,7 +4,7 @@ def test_calcular_lucro():
     faturamento = calcular_faturamento()
     assert calcular_lucro(faturamento, 500) > 0
     
-    
+
 
 
 
@@ -14,3 +14,5 @@ def test_calcular_lucro():
 # E -> Exceção/ Erro
 # . -> Tudo certo
 
+# pytest -v   DÁ MAIS INFORMAÇÕES DO TESTE
+# pytest arquivo.py testa apenas o arquivo 

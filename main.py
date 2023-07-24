@@ -2,7 +2,7 @@
 
 # Calculra Faturamento
 def calcular_faturamento():
-    vendas = [10, 20, 30, 40, 50]
+    vendas = [100, 200, 300, 400, 500]
     faturamento = sum(vendas)
     return faturamento
 
